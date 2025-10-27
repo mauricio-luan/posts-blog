@@ -18,7 +18,7 @@ const router = createRouter({
     {
       path: '/post/:slug',
       name: 'post-detail',
-      component: 'PostDetail',
+      component: () => import('@/components/PostDetail.vue'),
     },
   ],
 })
