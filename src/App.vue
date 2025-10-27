@@ -91,6 +91,7 @@ export default {
       ],
     }
   },
+
   methods: {
     categoryView(category) {
       return {
@@ -99,6 +100,7 @@ export default {
       }
     },
   },
+
   provide() {
     return {
       posts: this.posts,

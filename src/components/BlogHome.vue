@@ -17,6 +17,7 @@
 <script>
 export default {
   inject: ['posts'],
+
   methods: {
     postDetail(postSlug) {
       return {
